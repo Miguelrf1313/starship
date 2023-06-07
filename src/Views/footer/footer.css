@@ -1,0 +1,139 @@
+@font-face{
+    font-family: 'Rubik';
+    src:url(/assets/fonts/Pacifico-Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+.footer{
+
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: #08003c;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 300px;
+    color: azure;
+}
+
+.footer-container{
+
+    width: 100%;
+    height: 200px;
+    background-color: #08003c;
+    display: flex;
+    align-items: self-end;
+    color: azure;
+}
+
+
+.footer-box{
+    position:absolute;
+    width: 70%;
+    height: 250px;
+    background-color: orange;
+    bottom: 60%;
+    border-radius: 30px;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.coment h1{
+    font-family: 'Rubik', sans-serif;
+    font: 10px;
+}
+
+.coment{
+    width: 600px;
+}
+
+.button-footer button{
+    background-color: #4170f4;
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+cursor: pointer;
+border-radius: 70px;
+border: none;
+color: rgb(255, 255, 255);
+font-size: 14px;
+width: 130px;
+height: 50px;
+transition: all 300ms;
+}
+
+.button-footer button:hover{
+transform: scale(1.15);
+
+
+background-color: white;
+color: black;
+}
+
+
+
+.base hr{
+    width: 80%;
+    border-color: #ffa500;
+}
+.base{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+
+}
+.spam{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+@media screen and ( max-width:420px ) {
+ 
+
+    .footer-box{
+        width: 80%;
+        height: 200px;
+    }
+    
+    
+    .coment h1{
+        font-size: 20px;
+
+    }
+    
+    .coment{
+        width: 50%;
+    }
+    
+    .button-footer button{
+    font-size: 10px;
+    width: 90px;
+    height: 40px;
+
+    }
+    
+    .footer{
+        margin-top: 50px;
+    }
+
+    .spam{
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+}

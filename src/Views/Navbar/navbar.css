@@ -1,0 +1,118 @@
+.boxin-nav{
+    width: 100%;
+    padding: 0px 200px;
+}
+
+
+
+.nav-contenedor{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-contenido{
+    z-index: 3;
+    font-size: 25px;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rutas-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+
+
+.rutas-nav button{
+    background-color: #4170f4;
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+cursor: pointer;
+border-radius: 70px;
+border: none;
+color: rgb(255, 255, 255);
+font-size: 14px;
+width: 130px;
+height: 50px;
+transition: all 300ms;
+}
+
+.rutas-nav button:hover{
+transform: scale(1.15);
+
+
+background-color: white;
+color: black;
+}
+
+@media screen and (max-width: 1200px){
+
+    .boxin-nav{
+        width: 100%;
+        padding: 0px 100px;
+    }
+    
+    
+    
+    .nav-contenedor{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .rutas-nav button{
+    font-size: 14px;
+    width: 130px;
+    height: 50px;
+
+    }
+}
+    
+@media screen and ( max-width: 420px){
+
+    
+    .nav-contenido {
+        z-index: 3;
+        font-size: 10px;
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .boxin-nav{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    
+    
+    
+    .nav-contenedor{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .rutas-nav button{
+    font-size: 10px;
+    width: 70px;
+    height: 40px;
+
+}
+
+}
